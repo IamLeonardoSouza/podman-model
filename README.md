@@ -10,7 +10,7 @@ Além disso, o **Podman** se integra bem com outras ferramentas de gerenciamento
 
 - Sistema operacional com suporte ao **Podman** (Linux, Windows com WSL2, macOS)
 
-## Instalar o Podman
+## Instalação do Podman
 
 ### Linux (Ubuntu/Debian)
 
