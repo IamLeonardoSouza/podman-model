@@ -61,12 +61,12 @@ Isso configurará uma VM padrão para o Podman.
 ```bash
 podman machine start
 ```
-Verifique a conexão: Confirme que a conexão com a VM está ativa:
+- Verifique a conexão: Confirme que a conexão com a VM está ativa:
 
 ```bash
 podman system connection list
 ```
-Você deverá ver algo como:
+- Você deverá ver algo como:
 
 ```bash
 Name     Default  URI
