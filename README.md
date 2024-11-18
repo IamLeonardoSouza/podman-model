@@ -28,8 +28,8 @@ brew install podman
 ```
 ### Windows
 
-1- Baixe o Podman Desktop do <a href="https://podman-desktop.io/downloads/windows" target="_blank">site oficial</a>.
-2- Siga as instruções para completar a instalação.
+- Baixe o Podman Desktop do <a href="https://podman-desktop.io/downloads/windows" target="_blank">site oficial</a>.
+- Siga as instruções para completar a instalação.
 
 ## Configuração Inicial do Podman
 
