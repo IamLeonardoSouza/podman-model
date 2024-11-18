@@ -2,7 +2,9 @@
 
 ## O que é Podman?
 
-O **Podman** é uma ferramenta de gerenciamento de containers desenvolvida para ser uma alternativa ao Docker, oferecendo funcionalidades similares, como a criação, execução e gerenciamento de containers, mas com a principal diferença de não exigir um daemon em segundo plano. Ele é completamente compatível com as APIs do Docker, permitindo que os usuários executem comandos do Docker sem modificações, mas sua arquitetura permite rodar containers como processos do usuário sem privilégios administrativos, o que aumenta a segurança. O **Podman** também se integra bem com outras ferramentas de gerenciamento de containers, como o Buildah (para construir imagens) e o Skopeo (para mover imagens entre repositórios), tornando-o ideal para ambientes sem necessidade de dependências de processos de sistema centralizados. Ele é amplamente utilizado em sistemas Linux, mas também possui suporte para Windows e macOS, sendo uma solução robusta e eficiente para automação de containers em ambientes de desenvolvimento e produção.
+O **Podman** é uma ferramenta de gerenciamento de containers, desenvolvida como uma alternativa ao Docker, oferecendo funcionalidades similares, como a criação, execução e gerenciamento de containers. A principal diferença é que o **Podman** não requer um daemon em segundo plano, o que permite rodar containers como processos do usuário, sem a necessidade de privilégios administrativos, aumentando a segurança. Ele é totalmente compatível com as APIs do Docker, o que permite que os usuários executem comandos do Docker sem modificações.
+
+Além disso, o **Podman** se integra bem com outras ferramentas de gerenciamento de containers, como o Buildah (para construção de imagens) e o Skopeo (para movimentação de imagens entre repositórios). Essas integrações tornam o **Podman** ideal para ambientes que não dependem de processos centralizados de sistema. Embora seja amplamente utilizado em sistemas Linux, o **Podman** também oferece suporte para Windows e macOS, sendo uma solução robusta e eficiente para automação de containers em ambientes de desenvolvimento e produção.
 
 ## Requisitos
 
