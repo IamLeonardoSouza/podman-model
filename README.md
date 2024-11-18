@@ -87,8 +87,11 @@ Embora o **Podman** seja uma alternativa ao Docker, ele também usa os mesmos ar
 
 ```bash
 # Dockerfile
+
+# Imagem base do Python
 FROM python:3.9-slim
 
+# Definição de diretório trabalho atual
 WORKDIR /app
 
 # Copie o script Python para o container
