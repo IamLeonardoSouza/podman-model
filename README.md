@@ -118,12 +118,12 @@ podman run --rm podman-model
 
 Para liberar espaço, remova containers ou imagens desnecessárias:
 
-#### Remover containers parados:
+- Remover containers parados:
 
 ```bash
 podman container prune
 ```
-#### Remover imagens não utilizadas:
+- Remover imagens não utilizadas:
 
 ```bash
 podman image prune
