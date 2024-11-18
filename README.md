@@ -49,14 +49,14 @@ sudo systemctl enable --now podman.socket
 
 O Podman no Windows requer a configuração de uma máquina virtual (VM) para funcionar. Siga estes passos:
 
-1- Crie uma máquina virtual com podman machine init: Abra o terminal e execute:
+- Crie uma máquina virtual com podman machine init: Abra o terminal e execute:
 
 ```bash
 podman machine init
 ```
 Isso configurará uma VM padrão para o Podman.
 
-2- Inicie a máquina virtual com podman machine start: Após criar a VM, inicie-a:
+- Inicie a máquina virtual com podman machine start: Após criar a VM, inicie-a:
 
 ```bash
 podman machine start
